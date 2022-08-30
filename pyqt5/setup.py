@@ -18,6 +18,7 @@ from cx_Freeze import Executable, setup
 try:
     from cx_Freeze.hooks import get_qt_plugins_paths
 except ImportError:
+    print('There was an import error')
     include_files = []
 else:
     # Inclusion of extra plugins (new in cx_Freeze 6.8b2)
