@@ -50,7 +50,7 @@ bdist_dmg_options = {
     "volume_label": "TEST",
 }
 
-executables = [Executable("PyQt5app.py", base=None, target_name="test_pyqt5")]
+executables = [Executable("PyQt5app.py", base="Console", target_name="test_pyqt5")]
 
 setup(
     name="simple_PyQt5",
