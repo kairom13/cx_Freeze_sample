@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import QApplication, QLabel, QWidget
 
 
 def main():
+    print('Entered the Main Method')
     app = QApplication(sys.argv)
     window = QWidget()
     window.setWindowTitle("Simple")
